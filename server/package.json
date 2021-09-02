@@ -1,0 +1,24 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Back end for book conllaboration platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "books",
+    "collaboration"
+  ],
+  "author": "Kalidan Demes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express.js": "^1.0.0",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
